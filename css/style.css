@@ -1,0 +1,48 @@
+nav {
+  background-color: green;
+}
+
+nav ul {
+  background-color: green;
+  color: white;
+  font-size: 1em;
+}
+
+nav ul li {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  color: white;
+  font-size: 1em;
+}
+
+nav ul li:hover {
+  color: red;
+}
+
+h1 {
+  background-color: orange;
+  color: white;
+  font-size: 4em !important;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.para {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.para p {
+  background-color: blue;
+  font-size: 20px !important;
+  width: 800px;
+}
+/*# sourceMappingURL=style.css.map */

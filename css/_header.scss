@@ -1,0 +1,25 @@
+@mixin box($top, $left, $bottom, $right) {
+    padding: $top $left $bottom $right;
+    margin: $top $left $bottom $right;
+}
+
+nav{
+    
+    background-color: green;
+    ul{
+        background-color: $bgcolor;
+    color: $fontcolor;
+    font-size: $fontsize;
+        li{
+            @include box(10px, 10px, 10px, 10px)
+            
+            color: $fontcolor;
+            font-size: $fontsize;
+            &:hover{
+                color:red;
+            }
+        }
+    }
+    
+    
+}

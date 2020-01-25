@@ -1,0 +1,45 @@
+$bgcolor: green;
+$fontcolor: white;
+$heading: 4em;
+$fontsize: 1em;
+
+@import "header";
+
+
+    
+
+
+@mixin box($top, $left, $bottom, $right) {
+    padding: $top $left $bottom $right;
+    margin: $top $left $bottom $right;
+}
+
+%exmple {
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    margin: 40px;
+}
+
+h1{
+    background-color: orange;
+    color: $fontcolor;
+    font-size: $heading !important;
+    @include box(10px, 10px, 10px, 10px)
+}
+
+.para{
+    margin:0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    p{
+        background-color: blue;
+        font-size: 20px !important;
+      
+        width: 800px;
+     
+    }
+    
+}
+
